@@ -1,10 +1,10 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
+import { carousel } from 'react-responsive-carousel';
 import TestimonialCard from './CardInfo/TestimonialCard';
 export default function CarouselPage() {
     return (
-        <Carousel infiniteLoop={true} autoPlay={true} Interval={5000} showStatus={false}>
-            <TestimonialCard name="Micheal Caldwell" description="This is the best Mediterranean food that I've ever had!"/>
+        <carousel infiniteLoop={true} autoPlay={true} Interval={5000} showStatus={false}>
+            <TestimonialCard name="Micheal Caldwell" description="This is the best Mediterranean food that I've ever had!" />
             <TestimonialCard name="Alan Chen" description="My Shiba Inu, Mugi, really loved the cozy vibes and 
                 delicious food here."/>
             <TestimonialCard name="Casey Lau" description="I've had some great Mediterranean food before, but none of them beats
@@ -19,6 +19,6 @@ export default function CarouselPage() {
                  out at least once if they live in Chicago."/>
             <TestimonialCard name="Jack Hu" description="This restaurant served as a perfect dinner for me after a 
                 long night of studying. I would definitely order from here again!"/>
-             </Carousel>
+        </carousel>
     )
 }
