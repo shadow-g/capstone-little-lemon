@@ -1,8 +1,8 @@
 import React from 'react';
 import { carousel } from 'react-responsive-carousel';
-import GreekSalad from '../../../assets/food/greek-salad.webp';
-import Bruschetta from '../../../assets/food/bruschetta.jpeg';
-import LemonDessert from '../../../assets/food/lemon-dessert.webp';
+import GreekSalad from '../../../assets/food/greek salad.jpg';
+import Bruschetta from '../../../assets/food/bruchetta.svg';
+import LemonDessert from '../../../assets/food/lemon dessert.jpg';
 import SpecialCard from './CardInfo/SpecialCard';
 
 export default function CarouselPage() {

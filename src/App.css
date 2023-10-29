@@ -294,7 +294,7 @@ Link:link {
 .about-2 {
   position: absolute;
   top: -3.5rem;
-  left: 10rem;
+  left: 11rem;
 }
 
 /* FOOTER STYLING */
@@ -365,7 +365,7 @@ footer>menu {
 .header-reserve {
   width: 100vw;
   /* width of container */
-  height: 20rem;
+  height: 45rem;
   /* height of container */
   object-fit: cover;
 }
