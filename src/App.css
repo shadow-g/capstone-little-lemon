@@ -244,9 +244,11 @@ Link:link {
 }
 
 .testimonial-card>img {
-  width: 3rem;
-  height: 3rem;
-  object-fit: contain;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 25rem;
+  object-fit: cover;
+  display: flex;
 }
 
 .testimonials-carousel {
@@ -333,6 +335,7 @@ footer>menu {
 .footer-links>Link:hover {
   background-color: #495e57;
   text-decoration: underline;
+
 }
 
 .img-footer {
