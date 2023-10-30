@@ -5,6 +5,7 @@ import Reservation from "./pages/BookingPage";
 import Order from "./pages/Order";
 import Login from "./pages/Login";
 import Confirmation from "./pages/Confirmation";
+import Menu from './pages/Menu';
 
 export default function Routing() {
   return (
@@ -12,6 +13,7 @@ export default function Routing() {
       <Route path="/" element={<Homepage />} />
 
       <Route path="/about" element={<About />} />
+      <Route path="/menu" element={<Menu />} />
 
       <Route path="/reservations" element={<Reservation />} />
 
