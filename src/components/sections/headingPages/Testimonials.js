@@ -7,7 +7,7 @@ import JohnRosemblum from '../../../assets/John Rosenblum.png';
 import JimReynor from '../../../assets/Jim Reynor.png';
 import BrianDean from '../../../assets/Brian Dean.png';
 import TylerTohmine from '../../../assets/Tyler Tohmine.png';
-import JackHu from '../../../assets/Jack Hu.png'
+import JacjHu from '../../../assets/Jack Hu.png'
 
 
 export default function Testimonials() {
@@ -32,7 +32,7 @@ export default function Testimonials() {
                  The food here tasted so delicious after the trip here."/>
                 <TestimonialCard name="Tyler Tohmine" img={TylerTohmine} description="The food here was fire!! Everyone should try this place
                  out at least once if they live in Chicago."/>
-                <TestimonialCard name="Jack Hu" img={JackHu} description="This restaurant served as a perfect dinner for me after a 
+                <TestimonialCard name="Jack Hu" img={JacjHu} description="This restaurant served as a perfect dinner for me after a 
                 long night of studying. I would definitely order from here again!"/>
             </section>
 
