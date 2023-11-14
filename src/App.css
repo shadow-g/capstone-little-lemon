@@ -633,3 +633,17 @@ footer>menu {
 .carousel>.thumbs-wrapper {
   display: none;
 }
+
+/* feeedbak form*/
+
+.feedback-form {
+  width: 100%;
+  height: 20rem;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10rem;
+}
+
+.feedback-score {}

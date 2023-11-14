@@ -17,7 +17,7 @@ export default function Confirmation() {
       <section className="redirect-buttons">
         <a
           className="redirect-button"
-          href={require("../../assets/menu.webp")}
+          href={require("../../assets/Food Menu.png")}
           target="_blank"
           rel="noreferrer"
         >

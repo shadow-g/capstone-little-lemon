@@ -145,12 +145,12 @@ export default function ReservationForm(props) {
       </div>
 
       <div>
-        <label htmlFor="comments">Additional Comments</label> <br></br>
+        <label htmlFor="comments">Special Requests</label> <br></br>
         <textarea
           id="comments"
           rows={8}
           cols={50}
-          placeholder="Additional Comments"
+          placeholder="Allergies?... Pets?..."
           value={comments}
           onChange={(e) => setComments(e.target.value)}
         ></textarea>
