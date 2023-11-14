@@ -13,7 +13,7 @@ import JackHu from '../../../assets/Jack Hu.png'
 
 export default function CarouselPage() {
     return (
-        <Carousel slide={false}>
+        <Carousel slide={true}>
             <Carousel.Item>
                 <TestimonialCard img={MichaelCaldwell} name="Micheal Caldwell" description="This is the best Mediterranean food that I've ever had!" />
             </Carousel.Item>

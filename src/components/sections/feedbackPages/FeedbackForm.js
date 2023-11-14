@@ -23,7 +23,7 @@ export default function Feedback() {
                     onChange={(e) => setComments(e.target.value)}
                 ></textarea>
             </div>
-            <Link className='action-button' to='/confirmation'>Submit</Link>
+            <Link className='action-button' to='/feedback-confirm'>Submit</Link>
         </form>
     );
 };

@@ -21,6 +21,7 @@ export default function Routing() {
       <Route path="/login" element={<Login />} />
 
       <Route path="/confirmation" element={<Confirmation />} />
+      <Route path="/feedback-confirm" element={<feedbackConfirm />} />
     </Routes>
   );
 }
